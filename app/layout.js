@@ -1,6 +1,5 @@
-// app/layout.js
 
-import '../styles/style.css'; // ✅ Your global CSS file
+import '../styles/style.css'; 
 
 export const metadata = {
   title: 'PeersHub',
@@ -10,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      {/* ✅ You can use plain <head> inside <html> in App Router */}
+      {}
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import '../styles/style.css';
 
 export default function HomePage() {
@@ -25,8 +26,8 @@ export default function HomePage() {
             </p>
             <p className="cta">Fuel Your Learning Journey with Peers.</p>
             <div className="buttons">
-              <button className="login-btn">Login</button>
-              <button className="signup-btn">SignUp</button>
+              <Link href="/login" className="login-btn">Login</Link>
+              <Link href="/signup" className="signup-btn">SignUp</Link>
             </div>
           </div>
           <div className="hero-image">
